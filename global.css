@@ -1,0 +1,5 @@
+html,body{margin:0;padding: 0;background-color: #e7e7e7; color:#1c1c1c;font-family: Helvetica,Arial;font-size: 1em;margin-top: 10vh;}
+nav{position: fixed;left:0;top:0;background-color: #ff4a34;font-size: 2em;text-align: center;width: 100vw;height: 10vh;}
+nav ul {display: flex;flex-direction: row;flex: 1 0 auto;justify-content: space-around;align-items: center;list-style: none;width: 50%;}
+a,a:hover,a:visited,a:active,strong,em,mark{text-decoration: none;font-weight: inherit;font-variant: inherit;font-style: inherit;}
+nav a {color:white;opacity: .5; transition: .5s all;} nav a:hover {opacity: 1;color:white;}
