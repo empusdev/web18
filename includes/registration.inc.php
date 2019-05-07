@@ -20,6 +20,7 @@ if (isset($_POST['validation'])) {
       echo "<li>".$erreur[$i]."</li>";
     }
     echo "</ul>";
+    require_once 'formregistration.php';
   }
   else {
     echo "Le tableau est vide, insertion en BDD";
